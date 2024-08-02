@@ -54,3 +54,4 @@ if __name__=='__main__':
 
     model_trainer = ModelTrainer()
     r2_score = model_trainer.initiate_model_trainer(train_arr, test_arr)
+    print(r2_score)
